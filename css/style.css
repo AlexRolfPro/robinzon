@@ -1,5 +1,5 @@
 body, html {
-  font-family: Arial;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 13px;
   line-height: 27px;
   padding: 0;
@@ -26,6 +26,7 @@ body, html {
 /*-------------------main-nav--------------------*/
 
 .main-nav {
+  margin-bottom: 40px;
   background-color: #40c7c3;
   background-image: linear-gradient(to top, rgba(46, 135, 133, 0.09) 0%, rgba(255, 255, 255, 0.09) 100%);
 }
@@ -44,10 +45,10 @@ body, html {
 .main-nav__list-link {
   display: block;
   padding: 0 10px;
-  font-family: PFSquareSansPro;
+  font-family: "Source Sans Pro", sans-serif;
   text-shadow: -0.7px -0.7px 0 rgba(231, 136, 25, 0.23);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 36px;
   text-decoration: none;
   text-transform: uppercase;
@@ -69,14 +70,68 @@ body, html {
   margin: 0;
 }
 
+.language__item {
+  display: inline-block;
+}
+
 .language__rus,
 .language__eng {
-  display: inline-block;
-  padding: 0 5px;
-  font-family: PFSquareSansPro;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 36px;
+  display: block;
+  padding: 0 6px;
+  margin: 0 3px;
+  font: 600 14px/36px  "Source Sans Pro", sans-serif;
+  text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+}
+
+.language__eng:hover,
+.language__rus:hover {
+  padding: 0 5px;
+  line-height: 24px;
+  opacity: 0.62;
+  background-color: rgba(141, 239, 236, 0.24);
+  border: 1px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/*---------------------------header---------------------*/
+
+.header__logo-link {
+  float: left;
+  margin-right: 80px;
+}
+
+.header__phone-number {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 80px;
+  text-decoration: none;
+  color: #83979a;
+  font: 400 22px/36px Arial;
+}
+
+.header__phone-number_black {
+  color: #545454;
+  font-weight: 700;
+}
+
+.header__phone-number_country {
+  font: 400 18px/36px "Source Sans Pro", sans-serif;
+}
+
+.header__call {
+  padding: 8px 18px 8px 50px;
+  margin-right: 60px;
+  font: 600 16px/36px "Source Sans Pro", sans-serif;
+  background-color: #ff851a;
+  background-image: linear-gradient(to top, rgba(217, 101, 15, 0.17) 0%, rgba(217, 101, 15, 0.17) 13%, rgba(255, 255, 255, 0.17) 82%, rgba(255, 255, 255, 0.17) 100%);
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.49), inset 0 -3px 1px rgba(184, 82, 0, 0.49);
+  text-shadow: -0.7px -0.7px 0 rgba(213, 117, 5, 0.52);
+  color: #fffbbd;
+  text-decoration: none;
+  text-transform: uppercase;
 }

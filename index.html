@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Robinzon</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -39,12 +40,34 @@
           </li>
         </ul>
         <ul class="main-nav__language language">
-          <li class="language__rus">рус</li>
-          <li class="language__eng">eng</li>
+          <li class="language__item">
+            <a class="language__rus" href="">рус</a>
+          </li>
+          <li class="language__item">
+            <a class="language__eng" href="">eng</a>
+          </li>
         </ul>
       </div>
     </div>
   </div>
+  <header class="header">
+    <div class="wrapper">
+      <div class="container clearfix">
+        <a class="header__logo-link" href="index.html">
+          <img class="header__logo-img" src="img/logo.png" width="240" height="50" alt="Robinzon property">
+        </a>
+        <a href="tel:+74993466828" class="header__phone-number">
+          +7 (499) <span class="header__phone-number_black">346 68 28</span>
+        </a>
+        <a href="tel:+306986890715" class="header__phone-number">
+          +30 (698) <span class="header__phone-number_black">689 07 15</span>
+          <span class="header__phone-number_country">(Греция)</span>
+        </a>
+        <a class="header__call" href="">Заказать звонок</a>
+        <a class="header__email" href="">info@property-greek.com</a>
+      </div>
+    </div>
+  </header>
 
 </body>
 </html>
