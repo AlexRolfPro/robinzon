@@ -20,7 +20,7 @@ body, html {
 .wrapper {
   margin: 0 auto;
   max-width: 960px;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
 }
 
 /*-------------------main-nav--------------------*/
@@ -100,6 +100,7 @@ body, html {
 
 .header__logo-link {
   float: left;
+  margin-top: 5px;
   margin-right: 80px;
 }
 
@@ -122,8 +123,20 @@ body, html {
   font: 400 18px/36px "Source Sans Pro", sans-serif;
 }
 
+.header__call:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 23px;
+  top: 5px;
+  left: 10px;
+  background: url("../img/icons/call-icon.png") no-repeat;
+}
+
 .header__call {
-  padding: 8px 18px 8px 50px;
+  position: relative;
+  float: left;
+  padding: 0 18px 0 50px;
   margin-right: 60px;
   font: 600 16px/36px "Source Sans Pro", sans-serif;
   background-color: #ff851a;
@@ -134,4 +147,22 @@ body, html {
   color: #fffbbd;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.header__email {
+  position: relative;
+  float: left;
+  padding-left: 40px;
+  font: 600 18px/36px "Source Sans Pro", sans-serif;
+  color: #ff8b2d;
+}
+
+.header__email::before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 17px;
+  top: 10px;
+  left: 1px;
+  background: url("../img/icons/email-icon.png") no-repeat;
 }
