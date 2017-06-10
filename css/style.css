@@ -1,10 +1,12 @@
 body, html {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 13px;
-  line-height: 27px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   background: #fdfeff;
+  color: #474747;
 }
 
 .container {
@@ -220,16 +222,17 @@ body, html {
 
 .aside__list {
   float: left;
-  width: 230px;
+  width: 220px;
   padding: 0;
   margin: 0;
+  margin-right: 20px;
   list-style: none;
 }
 
 .aside__list-link {
   display: block;
   padding: 5px 0;
-  font: 600 14px/18px "Source Sans Pro", sans-serif;
+  font: 600 13px/18px "Source Sans Pro", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: #129692;
@@ -238,4 +241,53 @@ body, html {
 .aside__list-link:hover {
   text-decoration: underline;
   color: #f8931d;
+}
+
+/*----------------main-contant-------------------*/
+
+.main-content {
+  float: left;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  display: inline;
+}
+
+.breadcrumbs__link {
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  color: #007472;
+}
+
+.breadcrumbs__link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs__item_current {
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  color: #01a1a2;
+}
+
+.main-content__header {
+  margin: 0;
+  padding-bottom: 5px;
+  font: 700 24px/24px "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid #eee;
+  color: #83979a;
+}
+
+.main-content__text {
+  width: 642px;
+  margin: 15px 0 20px;
+  font: 400 18px/30px "Source Sans Pro", sans-serif;
 }
