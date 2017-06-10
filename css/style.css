@@ -27,7 +27,7 @@ body, html {
 /*-------------------main-nav--------------------*/
 
 .main-nav {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   background-color: #40c7c3;
   background-image: linear-gradient(to top, rgba(46, 135, 133, 0.9) 0%, rgba(255, 255, 255, 0.2) 100%);
 }
@@ -89,7 +89,7 @@ body, html {
 .main-nav__sub-list-link {
   font: 600 12px/24px "Source Sans Pro", sans-serif;
   opacity: 0.95;
-  transition: all .2s ease .1s;
+  transition: all .15s ease .1s;
 }
 
 .main-nav__sub-list-link:hover {
@@ -135,6 +135,9 @@ body, html {
 }
 
 /*---------------------------header---------------------*/
+.header {
+  margin-bottom: 40px;
+}
 
 .header__logo-link {
   float: left;
@@ -210,4 +213,29 @@ body, html {
   top: 10px;
   left: 1px;
   background: url("../img/icons/email-icon.png") no-repeat;
+}
+
+/*---------------------aside----------------------------------*/
+
+
+.aside__list {
+  float: left;
+  width: 230px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.aside__list-link {
+  display: block;
+  padding: 5px 0;
+  font: 600 14px/18px "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #129692;
+}
+
+.aside__list-link:hover {
+  text-decoration: underline;
+  color: #f8931d;
 }
