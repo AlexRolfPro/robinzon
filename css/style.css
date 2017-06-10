@@ -291,3 +291,44 @@ body, html {
   margin: 15px 0 20px;
   font: 400 18px/30px "Source Sans Pro", sans-serif;
 }
+
+/*--------------------------footer----------------*/
+
+footer {
+  background-color: #2b716f;
+  min-height: 350px;
+}
+
+.footer__colum {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.footer__colum:last-child {
+  width: 180px;
+}
+
+.footer__list-header {
+  margin: 20px 0 0;
+  font: 600 16px/24px "Source Sans Pro", sans-serif;
+  color: #ffc85d;
+}
+
+.footer__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__list-link {
+  display: block;
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__list-link:hover {
+  text-decoration: underline;
+  color: #ffc85d;
+}
