@@ -305,8 +305,13 @@ footer {
   margin-right: 20px;
 }
 
-.footer__colum:last-child {
-  width: 180px;
+.footer__colum:nth-child(3) {
+  width: 170px;
+}
+
+.footer__colum:nth-child(4) {
+  width: 250px;
+  margin-top: 20px;
 }
 
 .footer__list-header {
@@ -331,4 +336,50 @@ footer {
 .footer__list-link:hover {
   text-decoration: underline;
   color: #ffc85d;
+}
+
+.footer__phone-number {
+  position: relative;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 40px;
+  text-decoration: none;
+  font: 600 18px/24px "Source Sans Pro", sans-serif;
+  color: #fff;
+}
+
+.footer__phone-number_country {
+  font: 400 14px/24px "Source Sans Pro", sans-serif;
+  color: #d6fffe;
+}
+
+.footer__phone-number:nth-child(1):before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 17px;
+  top: 3.5px;
+  left: 5px;
+  background: url("../img/icons/call-icon-2.png") no-repeat;
+}
+
+
+.footer__email {
+  position: relative;
+  float: left;
+  padding-left: 40px;
+  text-decoration: none;
+  font: 600 18px/36px "Source Sans Pro", sans-serif;
+  color: #ffc85d;
+}
+
+.footer__email::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 14px;
+  top: 13px;
+  left: 5px;
+  background: url("../img/icons/email-icon-2.png") no-repeat;
 }
