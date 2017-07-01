@@ -497,4 +497,28 @@ footer {
   .header__call {
     margin-right: 28px;
   }
+
+  .aside__list {
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .aside__list-link {
+    font: 600 12px/18px "Source Sans Pro", sans-serif;
+  }
+
+  .main-content {
+    width: 518px;
+  }
+
+  .main-content__text {
+    width: 518px;
+    margin: 15px 0 20px;
+    font: 400 14px/24px "Source Sans Pro", sans-serif;
+  }
+
+   .main-content__img {
+     width: 518px;
+     height: 288px;
+   }
 }
