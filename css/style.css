@@ -47,6 +47,7 @@ body, html {
 .main-nav__list-item {
   position: relative;
   display: inline-block;
+  margin-right: 12px;
   transition: all .4s ease .15s;
 }
 
@@ -143,7 +144,7 @@ body, html {
 
 .header__logo-link {
   float: left;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-right: 80px;
 }
 
@@ -151,11 +152,13 @@ body, html {
   float: left;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 80px;
+  margin-right: 60px;
+  margin-bottom: 5px;
   text-decoration: none;
   color: #83979a;
-  font: 400 22px/36px Arial;
+  font: 400 24px/36px Arial;
 }
+
 
 .header__phone-number_black {
   color: #545454;
@@ -440,4 +443,58 @@ footer {
 
 .footer__copyright_big {
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 728px;
+    padding: 0 20px;
+  }
+
+  .wrapper {
+    max-width: 768px;
+  }
+
+  .main-nav__list-item {
+    margin-right: 0;
+  }
+
+  .main-nav__list-link,
+  .main-nav__sub-list-link {
+    padding: 0 9px;
+    font: 600 12px/36px "Source Sans Pro", sans-serif;
+  }
+
+  .language__rus,
+  .language__eng {
+    padding: 0 4px;
+    margin: 0 2px;
+    font: 600 12px/36px  "Source Sans Pro", sans-serif;
+  }
+
+  .header__logo-img {
+    width: 200px;
+    height: 50px;
+  }
+
+  .header__logo-link {
+    margin-right: 30px;
+  }
+
+  .header__phone-number {
+    margin-right: 45px;
+    font: 400 22px/36px Arial;
+  }
+
+  .header__phone-number + .header__phone-number {
+    margin-right: 0;
+  }
+
+  .header__phone-number_country {
+    font: 400 16px/36px "Source Sans Pro", sans-serif;
+  }
+
+  .header__call {
+    margin-right: 28px;
+  }
 }
