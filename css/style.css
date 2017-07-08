@@ -305,6 +305,7 @@ footer {
   float: left;
   width: 220px;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .footer__colum:nth-child(3) {
@@ -388,6 +389,8 @@ footer {
 }
 
 .footer__social {
+  display: inline-block;
+  width: 250px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -520,5 +523,31 @@ footer {
    .main-content__img {
      width: 518px;
      height: 288px;
+   }
+
+   .footer__colum {
+     margin-right: 45px;
+   }
+
+   .footer__colum:nth-child(3) {
+     margin-right: 0;
+   }
+
+   .footer__colum:nth-child(4) {
+     width: 728px;
+     margin-top: 0;
+     margin-right: 0;
+   }
+
+   .footer__contacts {
+     display: inline-block;
+     width: 260px;
+     float: left;
+   }
+
+   .footer__logo {
+     display: inline-block;
+     width: 200px;
+     float: right;
    }
 }
