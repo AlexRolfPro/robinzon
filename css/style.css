@@ -554,12 +554,12 @@ footer {
 
 @media screen and (max-width: 426px) {
   .container {
-    width: 405px;
+    width: 406px;
     padding: 0 10px;
   }
 
   .wrapper {
-    max-width: 425px;
+    max-width: 426px;
   }
 
   .main-nav{
@@ -615,6 +615,18 @@ footer {
   .footer__logo {
     float: left;
   }
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    width: 356px;
+    padding: 0 10px;
+  }
+
+  .wrapper {
+    max-width: 376px;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
